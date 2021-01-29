@@ -1,0 +1,32 @@
+{
+  "name": "wendys-pigtails",
+  "version": "1.0.0",
+  "description": "A tier list application where the community uploads and votes on binary choices.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tier-List/wendys-pigtails.git"
+  },
+  "author": "Zack Nguyen, Mia Kim, and Brehanu Bugg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tier-List/wendys-pigtails/issues"
+  },
+  "homepage": "https://github.com/Tier-List/wendys-pigtails#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "deta": "0.0.8",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mustache": "^4.1.0",
+    "mustache-express": "^1.3.0",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  }
+}
